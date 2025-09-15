@@ -36,10 +36,10 @@ import mahatmalogo from './assets/education_logo/image.png';
 // Project Section Logo's
 import farmmarketLogo from './assets/work_logo/farmmarket.png';
 import wanderlustLogo from './assets/work_logo/wanderlust.png';
-import ecomLogo from './assets/work_logo/image.png';
+import ecomLogo from './assets/work_logo/iimage.png';
 import trafficlogo from './assets/work_logo/npm.png';
-// import taskremLogo from './assets/work_logo/task_rem.png';
-// import webverLogo from './assets/work_logo/web_dig.png';
+import taskremLogo from './assets/work_logo/iiimage.png';
+import webverLogo from './assets/work_logo/image.png';
 // import cmLogo from './assets/work_logo/cm.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
@@ -104,54 +104,39 @@ export const SkillsInfo = [
     {
       id: 0,
       img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
+      role: "Oracle Cloud Infrastructure 2025 Certified Developer Professional",
+      company: "Oracle University",
+      date:  " September 2025",
+      desc: "I earned the Oracle Certified Professional – Oracle Cloud Infrastructure (OCI) 2025 Certified Developer Professional certification from Oracle University. This certification validates my skills in designing, developing, and deploying secure, scalable cloud applications. I gained expertise in OCI core services, IAM, security, automation with APIs/SDKs, and serverless solutions. It also enhanced my knowledge of DevOps, Kubernetes, monitoring, and cost optimization on Oracle Cloud.",
       skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
+        "Oracle Cloud Infrastructure (OCI) Core Services",
+       " Cloud Application Development",
+       " Identity and Access Management (IAM)",
+     "  Infrastructure as Code (IaC)",
+      "  Monitoring, Security, and Cost Optimization",
+        
       ],
     },
     {
       id: 1,
       img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
+      role: "Fullstack Developer ",
+      company: "Apna College",
+      date: "July 2023 ",
+      desc: "Apna College’s Delta 6.0 Full Stack Web Development Course is a beginner-friendly MERN program covering HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, SQL, and advanced topics like cloud deployment, real-time apps, and testing. It includes hands-on projects (Spotify clone, To-Do List, Airbnb, Zerodha, ChatGPT-style app, LinkedIn, GitHub, Zoom clone, etc.) to build industry-level skills.",
       skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
+        "HTML", "CSS", "JavaScript", "React"," Node.js", "Express", "MongoDB", "SQL", "Cloud Deployment", "Real-time Apps", "Testing",
       ],
     },
     {
       id: 2,
       img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
+      role: "Python Essentials",
+      company: "Great Learning",
+      date: "September 2023"  ,
+      desc: "The Python Essentials course by Great Learning is a beginner-friendly program that teaches Python fundamentals like variables, functions, data structures, and file handling. It also covers advanced topics such as regular expressions and testing with Pytest. Learners gain practical skills with hands-on exercises and receive a certificate upon completion, enhancing their career opportunities.",
       skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
+        "Python Basics", "Data Structures", "File Handling","Problem Solving",
       ],
     },
   ];
@@ -227,26 +212,26 @@ export const SkillsInfo = [
       github: "https://github.com/mishrarakesh-1902/traffic-detection",
       webapp: "https://traffic-detection.streamlit.app", // or keep blank if not hosted
     },
-    // {
-    //   id: 4,
-    //   title: "Task Reminder Chrome Extension Tool",
-    //   description:
-    //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-    //   image: taskremLogo,
-    //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-    //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-    //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Webverse Digital",
-    //   description:
-    //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-    //   image: webverLogo,
-    //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-    //   github: "https://github.com/codingmastr/Webverse-Digital",
-    //   webapp: "https://webversedigital.com/",
-    // },
+    {
+      id: 4,
+      title: "AI_TOOLS_HUB",
+      description:
+        " Built a MERN stack platform by integrating AI services including image generation (Stability AI), text summarization (Groq), conversational AI (OpenAI), and recipe generation (Spoonacular API + OpenAI) for versatile functionality ",
+      image: taskremLogo,
+      tags: ["MERN" , "API Integration", "AI Services", "JavaScript", "CSS"],
+      github: "https://github.com/mishrarakesh-1902/AI_TOOL_HUB",
+      webapp: "https://ai-tools-hub-1.onrender.com",
+    },
+    {
+      id: 5,
+      title: "APNA VIDEO CALL",    
+      description:
+        "Developed a real-time video calling and live chat application using the MERN stack, enabling seamless communication with WebRTC. Integrated secure authentication and responsive UI for smooth user experience.",
+      image: webverLogo,
+      tags: ["MERN", "WebRTC", "JavaScript", "CSS"],
+      github: "https://github.com/mishrarakesh-1902/Apna-Video-Call",
+      webapp: "https://apna-video-call-1-3lr7.onrender.com",
+    },
     // {
     //   id: 6,
     //   title: "Coding Master",
