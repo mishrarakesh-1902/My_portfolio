@@ -24,6 +24,7 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 
 // Experience Section Logo's
+import psronline from './assets/company_logo/cropped-PSR-Online-logo.png';
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
@@ -39,8 +40,8 @@ import wanderlustLogo from './assets/work_logo/wanderlust.png';
 import ecomLogo from './assets/work_logo/iimage.png';
 import trafficlogo from './assets/work_logo/npm.png';
 import taskremLogo from './assets/work_logo/iiimage.png';
-import webverLogo from './assets/work_logo/image.png';
-// import cmLogo from './assets/work_logo/cm.png';
+import webverLogo from './assets/work_logo/imagee.png';
+import cmLogo from './assets/work_logo/image.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -99,6 +100,26 @@ export const SkillsInfo = [
     ],
   },
 ];
+
+
+  export const experience = [
+    {
+      id: 0,
+      img: psronline,
+      role: " Web Development Intern ",
+      company: "PVR Online IT Pvt. Ltd. ",
+      date:  "July 2025 - September 2025",
+      desc: "Designed and optimized responsive, high-performance web solutions that improved user experience, scalability, and site performance",
+      skills: [
+        "Front-End Development",
+       "Back-End Development",
+       "Database Management",
+      "Web Performance Optimization",
+      "SEO Collaboration & UI/UX Enhancement",
+        
+      ],
+    },
+  ];
 
   export const experiences = [
     {
@@ -232,16 +253,16 @@ export const SkillsInfo = [
       github: "https://github.com/mishrarakesh-1902/Apna-Video-Call",
       webapp: "https://apna-video-call-1-3lr7.onrender.com",
     },
-    // {
-    //   id: 6,
-    //   title: "Coding Master",
-    //   description:
-    //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    //   image: cmLogo,
-    //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    //   github: "https://codingmasterweb.in/",
-    //   webapp: "https://codingmasterweb.in/",
-    // },
+    {
+      id: 6,
+      title: "RideFlow – Ride-Hailing Platform",
+      description:
+        "Engineered a ride-hailing platform with Rider & Driver mobile apps, real-time ride requests, GPS navigation, fare estimation, digital payments, and an Admin Panel for user/driver management, ride tracking, analytics, and complaint resolution",
+      image: cmLogo,
+      tags: ["TypeScript", "Node.js", "MongoDB", "Express", "Payment Integration", "Mapbox"],
+      github: "https://github.com/mishrarakesh-1902/Rideflow",
+      webapp: "https://rideflow-qca6.onrender.com/",
+    },
     // {
     //   id: 7,
     //   title: "Image Search App",
