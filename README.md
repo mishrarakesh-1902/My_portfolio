@@ -1,12 +1,98 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!
+This project showcases my skills, projects, and experience as a developer in a clean and interactive way.
 
-Currently, two official plugins are available:
+🔗 **Live Portfolio: **https://my-portfolio-2-l4qp.onrender.com/
+📁 **Repository:** [https://github.com/mishrarakesh-1902/My_portfolio](https://github.com/mishrarakesh-1902/My_portfolio)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 About the Project
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This portfolio is designed to:
+
+* Present my **skills and expertise**
+* Highlight my **projects and work**
+* Share my **background and experience**
+* Provide easy ways to **connect with me**
+
+It serves as a central place to understand who I am and what I build.
+
+---
+
+## 🚀 Features
+
+* Responsive design (mobile & desktop friendly)
+* Clean and modern UI
+* Projects showcase section
+* About Me section
+* Contact information / social links
+* Easy to customize and extend
+
+---
+
+## 🛠️ Tech Stack
+
+*(Update this list if needed)*
+
+* **HTML5**
+* **CSS3**
+* **JavaScript**
+* *(React / Tailwind / Bootstrap – if applicable)*
+
+---
+
+## 📂 Project Structure
+
+```
+My_portfolio/
+│── index.html
+│── css/
+│   └── style.css
+│── js/
+│   └── script.js
+│── assets/
+│   └── images/
+└── README.md
+```
+
+---
+
+## ⚙️ Setup & Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mishrarakesh-1902/My_portfolio.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd My_portfolio
+   ```
+
+3. Open `index.html` in your browser
+   *(or use a live server for better experience)*
+
+---
+
+## 📸 Screenshots
+
+*(Add screenshots of your portfolio here to make it more attractive)*
+
+---
+
+## 📬 Contact
+
+* **GitHub:** [https://github.com/mishrarakesh-1902](https://github.com/mishrarakesh-1902)
+* **LinkedIn:** *(Add your LinkedIn link)*
+* **Email:** *(Add your email address)*
+
+---
+
+## ⭐ Acknowledgements
+
+If you like this portfolio, feel free to ⭐ the repository!
+Feedback and suggestions are always welcome 😊
