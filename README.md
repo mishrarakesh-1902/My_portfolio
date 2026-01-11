@@ -88,8 +88,7 @@ My_portfolio/
 ## 📬 Contact
 
 * **GitHub:** [https://github.com/mishrarakesh-1902](https://github.com/mishrarakesh-1902)
-* **LinkedIn:** *(Add your LinkedIn link)*
-* **Email:** *(Add your email address)*
+* **Email:** *(mishrarakeshkumar766@gmail.com)*
 
 ---
 
