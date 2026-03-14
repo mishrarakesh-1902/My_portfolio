@@ -1,3 +1,4 @@
+import React from "react";
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
@@ -24,7 +25,6 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 
 
 // Experience Section Logo's
-import psronline from './assets/company_logo/cropped-PSR-Online-logo.png';
 import webverseLogo from './assets/company_logo/webverse_logo.png';
 import agcLogo from './assets/company_logo/agc_logo.png';
 import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
@@ -46,57 +46,76 @@ import cmLogo from './assets/work_logo/image.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
 
 
+// External Icons
+import { SiTypescript, SiTailwindcss, SiBootstrap, SiExpress, SiDjango, SiMongodb, SiPostgresql, SiMysql, SiNumpy, SiPandas, SiScikitlearn, SiCplusplus, SiPython, SiJavascript, SiReact, SiNodedotjs, SiGit, SiGithub, SiDocker, SiKubernetes, SiPostman } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { TbApi, TbDatabase, TbHierarchy3, TbHexagons } from "react-icons/tb";
+import { LuInfinity } from "react-icons/lu";
+
 export const SkillsInfo = [
+  {
+    title: 'Languages',
+    skills: [
+      { name: 'C++', icon: <SiCplusplus className="text-[#00599C]" /> },
+      { name: 'Python', icon: <SiPython className="text-[#3776AB]" /> },
+      { name: 'JavaScript', icon: <SiJavascript className="text-[#F7DF1E]" /> },
+      { name: 'Java', icon: <FaJava className="text-[#007396]" /> },
+    ],
+  },
   {
     title: 'Frontend',
     skills: [
+      { name: 'React.js', icon: <SiReact className="text-[#61DAFB]" /> },
+      { name: 'TypeScript', icon: <SiTypescript className="text-[#3178C6]" /> },
+      { name: 'Tailwind CSS', icon: <SiTailwindcss className="text-[#06B6D4]" /> },
+      { name: 'Bootstrap', icon: <SiBootstrap className="text-[#7952B3]" /> },
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Django', logo: djangologo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'Node.js', icon: <SiNodedotjs className="text-[#339933]" /> },
+      { name: 'Express.js', icon: <SiExpress className="text-white" /> },
+      { name: 'Django', icon: <SiDjango className="text-[#092E20]" /> },
     ],
   },
   {
-    title: 'Languages',
+    title: 'Databases',
     skills: [
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
+      { name: 'MongoDB', icon: <SiMongodb className="text-[#47A248]" /> },
+      { name: 'PostgreSQL', icon: <SiPostgresql className="text-[#4169E1]" /> },
+      { name: 'MySQL', icon: <SiMysql className="text-[#4479A1]" /> },
     ],
   },
   {
-    title: 'Tools',
+    title: 'Core Concepts',
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
+      { name: 'Data Structures & Algorithms', icon: <TbHierarchy3 className="text-gray-300" /> },
+      { name: 'OOP', icon: <TbHexagons className="text-gray-300" /> },
+      { name: 'DBMS', icon: <TbDatabase className="text-gray-300" /> },
+      { name: 'REST APIs', icon: <TbApi className="text-gray-300" /> },
     ],
   },
   {
-    title: 'Database',
+    title: 'DevOps & Tools',
     skills: [
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Git', icon: <SiGit className="text-[#F05032]" /> },
+      { name: 'GitHub', icon: <SiGithub className="text-white" /> },
+      { name: 'Docker', icon: <SiDocker className="text-[#2496ED]" /> },
+      { name: 'Kubernetes', icon: <SiKubernetes className="text-[#326CE5]" /> },
+      { name: 'CI/CD', icon: <LuInfinity className="text-purple-400" /> },
+      { name: 'Postman', icon: <SiPostman className="text-[#FF6C37]" /> },
+      // { name: 'VS Code', logo: vscodeLogo },
     ],
   },
   {
-    title: 'Machine Learning',
+    title: 'Libraries',
     skills: [
-      { name: 'NumPy', logo: numpylogo },
-      { name: 'Pandas', logo: pandaslogo  },
-      { name: 'scikit-learn', logo: sklearnlogo },
+      { name: 'NumPy', icon: <SiNumpy className="text-[#013243]" /> },
+      { name: 'Pandas', icon: <SiPandas className="text-[#150458]" /> },
+      { name: 'scikit-learn', icon: <SiScikitlearn className="text-[#F7931E]" /> },
     ],
   },
 ];
@@ -105,18 +124,19 @@ export const SkillsInfo = [
   export const experience = [
     {
       id: 0,
-      img: psronline,
-      role: " Web Development Intern ",
-      company: "PVR Online IT Pvt. Ltd. ",
-      date:  "July 2025 - September 2025",
-      desc: "Designed and optimized responsive, high-performance web solutions that improved user experience, scalability, and site performance",
+      img: "",
+      role: "Freelance Web Developer",
+      company: "PinakiTechLive (Remote)",
+      date:  "2026",
+      desc: "Delivered a production-ready corporate website using React 18, TypeScript, and Vite with scalable component architecture. Managed full deployment lifecycle including GoDaddy hosting, domain configuration, DNS management, SSL setup, and production optimization.",
       skills: [
-        "Front-End Development",
-       "Back-End Development",
-       "Database Management",
-      "Web Performance Optimization",
-      "SEO Collaboration & UI/UX Enhancement",
-        
+        "React.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "ShadCN UI",
+        "React Hook Form",
+        "Zod",
+        "Framer Motion",
       ],
     },
   ];

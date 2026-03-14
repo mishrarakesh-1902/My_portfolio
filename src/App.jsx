@@ -12,24 +12,32 @@ import BlurBlob from './components/BlurBlob';
 
 const App = () => {
   return (
-    <div className="bg-[#050414]">
-
-       <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
-
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+    <div className="bg-[#050414] min-h-screen text-white font-sans selection:bg-purple-500/30 selection:text-purple-200 overflow-x-hidden">
       
-      <div className="relative pt-20">
+      {/* Background Blobs for ambient lighting */}
+      <BlurBlob position={{ top: '10%', left: '10%' }} size={{ width: '40vw', height: '40vw' }} />
+      <BlurBlob position={{ top: '60%', right: '10%' }} size={{ width: '50vw', height: '50vw' }} />
+      
+      {/* Subtle Grid Overlay */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none">
+         <div className="absolute inset-0 bg-[#050414] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,transparent_0%,#000_100%)]"></div>
+         {/* Second mask for smoother fade out near the bottom */}
+         <div className="absolute inset-0 bg-[#050414] [mask-image:linear-gradient(to_bottom,transparent_0%,#000_100%)] opacity-80"></div>
+      </div>
+      
+      <div className="relative pt-20 z-10 flex flex-col">
         <Navbar />
-        <About />
-        <Skills />
-        <Experience />
-        <Expers />
-        <Work />
-        <Education />
-        <Contact />
+        <main>
+          <About />
+          <Skills />
+          <Experience />
+          <Expers />
+          <Work />
+          <Education />
+          <Contact />
+        </main>
         <Footer />
       </div>
-
     </div>
   );
 };
