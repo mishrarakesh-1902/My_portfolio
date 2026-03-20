@@ -88,6 +88,18 @@ const Exper = () => {
                     {exp.desc}
                  </p>
 
+                 {exp.liveLink && (
+                    <a
+                      href={exp.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 mb-6 text-purple-400 hover:text-purple-300 font-semibold transition-colors group/link"
+                    >
+                      <span>Visit Live Project</span>
+                      <svg className="w-4 h-4 transform transition-transform group-hover/link:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                 )}
+
                  <div>
                     <h5 className="text-sm font-semibold text-white mb-3 tracking-wide">TECHNOLOGIES & SKILLS</h5>
                     <div className="flex flex-wrap gap-2">

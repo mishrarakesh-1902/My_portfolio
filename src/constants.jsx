@@ -42,6 +42,7 @@ import trafficlogo from './assets/work_logo/npm.png';
 import taskremLogo from './assets/work_logo/iiimage.png';
 import webverLogo from './assets/work_logo/imagee.png';
 import cmLogo from './assets/work_logo/image.png';
+import chatflowLogo from './assets/work_logo/chatflow.png';
 // import imagesearchLogo from './assets/work_logo/image_search.png';
 // import removebgLogo from './assets/work_logo/remove_bg.png';
 
@@ -129,6 +130,7 @@ export const SkillsInfo = [
       company: "PinakiTechLive (Remote)",
       date:  "2026",
       desc: "Delivered a production-ready corporate website using React 18, TypeScript, and Vite with scalable component architecture. Managed full deployment lifecycle including GoDaddy hosting, domain configuration, DNS management, SSL setup, and production optimization.",
+      liveLink: "https://PinakiTechLive.com",
       skills: [
         "React.js",
         "TypeScript",
@@ -213,8 +215,18 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
-      {
+    {
       id: 0,
+      title: "Real-Time Chat & Video Calling Web Application",
+      description:
+        "Built a scalable real-time chat system using React (TypeScript) and Socket.IO (WebSockets) with instant messaging and user presence tracking. Implemented peer-to-peer video/audio calling using WebRTC, handling real-time signaling and secure low-latency communication. Developed secure backend services with Node.js, Express, and MongoDB, integrating JWT authentication, RESTful APIs, and Zustand state management.",
+      image: chatflowLogo,
+      tags: ["React (TypeScript)", "Socket.IO", "WebRTC", "Node.js", "Express", "MongoDB", "JWT", "Zustand"],
+      github: "https://github.com/mishrarakesh-1902/Real-time-chat-video-call",
+      webapp: "https://real-time-chat-50yz.onrender.com/",
+    },
+    {
+      id: 1,
       title: "Farm Market",
       description:
         "A smart agriculture web platform built using Django. Integrated ML models for crop recommendation and yield prediction. Includes dual login for Farmers and Buyers, direct selling, and role-based access control.",
@@ -224,7 +236,7 @@ export const SkillsInfo = [
       webapp: "https://farm-market-project-8.onrender.com",
     },
     {
-      id: 1,
+      id: 2,
       title: "Wanderlust",
       description:
         "A full-stack rental booking web app developed using Node.js and Express. Integrated Mapbox for property location, with full authentication, listing, filtering, and reviews.",
@@ -234,7 +246,7 @@ export const SkillsInfo = [
       webapp: "https://majorproject-lg4r.onrender.com",
     },
     {
-      id: 2,
+      id: 3,
       title: "E-shopper",
       description:
         "An online shopping platform built with Django. Features include product listing, cart system, user authentication, and brand management via Django admin panel.",
@@ -244,7 +256,7 @@ export const SkillsInfo = [
       webapp: "https://e-commerce-4-l3fc.onrender.com",
     },
     {
-      id: 3,
+      id: 4,
       title: "Traffic Detection System",
       description:
         "Used YOLOv4 and OpenCV to build a traffic monitoring system with real-time vehicle detection. Integrated with Streamlit for live visualization.",
@@ -254,7 +266,7 @@ export const SkillsInfo = [
       webapp: "https://traffic-detection.streamlit.app", // or keep blank if not hosted
     },
     {
-      id: 4,
+      id: 5,
       title: "AI_TOOLS_HUB",
       description:
         " Built a MERN stack platform by integrating AI services including image generation (Stability AI), text summarization (Groq), conversational AI (OpenAI), and recipe generation (Spoonacular API + OpenAI) for versatile functionality ",
@@ -264,7 +276,7 @@ export const SkillsInfo = [
       webapp: "https://ai-tools-hub-1.onrender.com",
     },
     {
-      id: 5,
+      id: 6,
       title: "APNA VIDEO CALL",    
       description:
         "Developed a real-time video calling and live chat application using the MERN stack, enabling seamless communication with WebRTC. Integrated secure authentication and responsive UI for smooth user experience.",
@@ -274,7 +286,7 @@ export const SkillsInfo = [
       webapp: "https://apna-video-call-1-3lr7.onrender.com",
     },
     {
-      id: 6,
+      id: 7,
       title: "RideFlow – Ride-Hailing Platform",
       description:
         "Engineered a ride-hailing platform with Rider & Driver mobile apps, real-time ride requests, GPS navigation, fare estimation, digital payments, and an Admin Panel for user/driver management, ride tracking, analytics, and complaint resolution",
